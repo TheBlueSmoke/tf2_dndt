@@ -42,7 +42,7 @@ class DNDT(tf.keras.layers.Layer):
         b = tf.cumsum(tf.concat([tf.constant(0.0, shape = [1]), -self.cuts_list[cut_idx]], 0))
         
         h = tf.matmul(x, W) + b
-        res = tf.nn.softmax(h /self.temperature)
+        res = tf.nn.softmax(h/self.temperature)
         
         return res
         
