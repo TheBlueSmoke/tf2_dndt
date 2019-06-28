@@ -1,6 +1,8 @@
 # tf2_dndt
 Tensorflow 2.0 implementation of Deep Neural Decision Trees
 
+### To do
+* add demo notebook
 
 ### Starting point
 Implementation of DNDT (TensorFlow and PyTorch) by wOOL  
